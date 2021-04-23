@@ -1,5 +1,5 @@
 import { Query } from '../config';
-// import { Query } from '../config';
+// import { Query } from '../config';  // does this need to be here...threw errors
 import type { IUsersTable, MySQL_Err, MySQL_Success} from '../../../typings/typings';
 
 const all = () => Query<(IUsersTable)[]>('SELECT * FROM users');

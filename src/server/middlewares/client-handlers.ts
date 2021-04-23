@@ -1,7 +1,7 @@
 import * as path from 'path';
 import { Request, Response, NextFunction} from 'express';
 
-export const CLIENT_ROUTES = ['/edit', '/details', '/add'];
+export const CLIENT_ROUTES = ['/edit/:id?', '/details/:id?', '/add'];
 
 
 
